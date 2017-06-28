@@ -63,7 +63,22 @@ img {
   border-radius: 50%;
 }
 	
-	
-a {
-	color: #00B6FF;
+	/* unvisited link */
+a:link {
+    color: #00B6FF;
+}
+
+/* visited link */
+a:visited {
+    color: #00B6FF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #00B6FF;
+}
+
+/* selected link */
+a:active {
+    color: #00B6FF;
 }
